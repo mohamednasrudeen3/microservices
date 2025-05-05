@@ -1,0 +1,14 @@
+# Java
+target/
+*.class
+*.log
+
+# IntelliJ
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+
+# Others
+.env
