@@ -30,6 +30,7 @@ public class ProductService {
         return repository.save(product).getId();
     }
 
+//    you need to debug this to learn
     public List<ProductPurchaseResponse> purchaseProducts(List<ProductPurchaseRequest> request) {
         var productIds = request
                 .stream()
