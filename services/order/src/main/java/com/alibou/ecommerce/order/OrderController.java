@@ -16,7 +16,7 @@ public class OrderController {
         private final OrderService service;
         @PostMapping
             public ResponseEntity<Integer> createOrder(@RequestBody @Valid OrderRequest request) {
-                return ResponseEntity.ok(this.service.createOrder(request));
+                return ResponseEntity.ok(service.createOrder(request));
         }
 
 }
