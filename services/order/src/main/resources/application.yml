@@ -1,0 +1,12 @@
+
+
+spring:
+  application:
+    name: order-service
+  config:
+    import: optional:configserver:http://localhost:8888
+
+#customer->8090
+#payment->8060
+#product->8050
+#api Gateway-> 8222
